@@ -46,6 +46,7 @@ setup(
     name='stringmetric',
     package_dir={'stringmetric': 'stringmetric'},
     packages=['stringmetric'],
+    python_requires='>=3.3',
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/sfischer13/python-stringmetric',
